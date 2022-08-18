@@ -1,0 +1,179 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Cinzel', serif;
+    font-family: 'Noto Serif', serif;
+}
+
+.hero-section{
+    background-image: url(./images/thumb-1920-1105349.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    position: relative;;
+}
+
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+.left-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.left-nav img{
+    width: 100px;
+}
+
+h3 span{
+    color: #0bffb6;
+}
+
+.right-nav{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 80px;
+}
+
+.right-nav h5{
+    cursor: pointer;
+}
+
+h5 span{
+    color: #0bffb6;
+}
+
+.main-heading{
+    /* font-family: 'Noto Serif', serif; */
+    font-size: 80px;
+    padding-left: 240px;
+    opacity: 0.9;
+}
+
+h1 span{
+    color: transparent;
+    -webkit-text-stroke: 2px white;
+    opacity: 1;
+}
+
+.hero-section-text {
+    width: 300px;
+    margin-left: 130px;
+    margin-top: 50px;
+}
+
+.hero-section-text p{
+    font-size: 14px;
+}
+
+.hero-section-text button{
+    width: 150px;
+    height: 40px;
+    background-color: #0bffb6;
+    font-weight: 700;
+    font-size: 15px;
+    border: none;
+    border-radius: 4px ;
+    margin-top: 30px;
+    cursor: pointer;
+    clip-path: polygon(16% 0, 100% 0, 100% 100%, 0 100%, 0 47%);
+
+}
+
+.valhalla-image img{
+    position: absolute;
+    left: 580px;
+    padding-top: 110px;
+    width: 350px;
+}
+
+.game-edition{
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    height: 280px;
+    justify-content: space-between;
+    position: absolute;
+    right: 250px;
+    top: 400px;
+}
+
+.edition-text{
+    border: none;
+    background-color: transparent;
+    color: white;
+    text-align: left;
+    font-weight: 700;
+    border-left: 3px solid white;
+    width: 200px;
+    padding-left: 15px;
+}
+
+.editions{
+    display: flex;
+    width: 340px;
+    justify-content: space-between;
+}
+
+
+
+
+.editions button{
+    background-color: transparent;
+    border: 1px solid #0bffb6;
+    color: #0bffb6;
+    text-align: left;
+    border-radius: 8px;
+    width: 170px;
+    height: 90px;
+    padding-left: 10px;
+    cursor: pointer;
+    
+}
+
+
+.gold-edition{
+    position: relative;
+}
+
+.gold-edition img{
+    width: 60px;
+    height: auto;
+    position: absolute;
+    bottom: 2px;
+    right: 0px;
+    transition: all 0.5s ease-in-out;
+}
+
+.gold-edition img:hover{
+    transform: scale(130%);
+}
+
+.ultimate-edition{
+    position: relative;
+    margin-left: 25px;
+}
+
+.ultimate-edition img{
+    width: 80px;
+    height: auto;
+    position: absolute;
+    bottom: 2px;
+    right: -15px;
+    transition: all 0.5s ease-in-out;
+}
+
+.ultimate-edition img:hover{
+    transform: scale(130%);
+}
